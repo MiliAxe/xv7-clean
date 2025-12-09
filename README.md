@@ -16,6 +16,14 @@ Once the image is built, you can run xv7 in a container:
 docker run -it xv7
 ```
 
+Upon entering the container, you can use the following commands to build and run xv7:
+
+```bash
+make clean
+make 
+make qemu-nox
+```
+
 ## Development
 
 If you want to make changes to the xv7 codebase, you can mount your local directory into the Docker container:
